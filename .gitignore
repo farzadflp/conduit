@@ -19,9 +19,6 @@ web-build/
 expo-env.d.ts
 # @end expo-cli
 
-# git hash version file
-src/git-hash.ts
-
 
 # tunnel core config files
 psiphon_config
@@ -36,3 +33,14 @@ ios_embedded_server_entries
 .vscode/
 
 android/.kotlin
+
+# local env overrides
+.env.local
+.env*.local
+.env.production
+.env.local.true
+
+TODO/
+
+android/keystore.properties
+android/dev-trusted-signatures.local.json
